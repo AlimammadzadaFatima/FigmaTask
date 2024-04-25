@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu ul{
+    display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.menu ul li a {
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+ul li:first-child a{
+    background: linear-gradient(84deg, #327186 21.78%, rgba(0, 0, 0, 0.00) 125.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul li:not(:first-child a) a{
+    color: #6A6B6C;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+header{
+    background-color: #F9FAFC;
+    padding-top: 46px;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: #F5C362;
+    margin-right: 40px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.main-text{
+    width: 50%;
+}
+
+
+.btn a{
+    color: #190D30;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+.text h2{
+    color: #07222C;
+    font-family: "Karma", serif;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 112.5px */
+}
+.text span{
+    background: linear-gradient(99deg, #577883 -7.67%, rgba(25, 86, 106, 0.00) 98.87%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Karma", serif;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+.main-text .btn-trnsprnt{
+  
+width: 200px;
+height: 62px;
+text-align: center;
+line-height: 62px;
+border-radius: 25px;
+margin-top: 20px;
+border: 3px solid #309DC1;
+}
+.main-text .btn-trnsprnt a{
+    color: #6A6B6C;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+  
+}
+header .btn{
+    margin-top: 20px;
+}
+.main-img{
+    width: 50%;
+}
+.main-img img{
+    width: 100%;
+}
+
+#sec-1{
+    background-color: blue;
+    width: 100%;
+    padding: 30px 0;
+}
+.number{
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 40px;
+
+}
+#sec-2{
+    padding: 30px 0;
+}
+.sec-2-text{
+    text-align: center;
+    padding: 40px
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card{
+    width: 24%;
+    background-color: #F9FAFC;
+}
+.row-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#sec-3 .row-3 img{
+    width: 60%;
+    padding: 30px;
+}
+.card h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#sec-3, #sec-4{
+    padding: 50px 0;
+}
+#sec-4 .course{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
+}
+.course .course-card{
+    width: 31%;
+    background-color: #F9FAFC;
+    margin: 30px 0;
+}
+.card-body{
+    padding: 50px 0;
+}
+.course-img{
+    width: 100%;
+}
+#sec-5{
+    background-color: #F9FAFC;
+}
+.student-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.st-card{
+    width: 31%;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.st-card h6{
+    font-size: 24px;
+    padding: 10px;
+}
+.st-card p{
+    padding: 12px
+}
+.st-card span img{
+    padding: 15px 0;
+}
+.fullName{
+    position: absolute;
+    top: 75%;
+    padding: 10px 5px;
+}
+footer{
+    background-color: blue;
+   
+}
+.footer-cont{
+    display: flex;
+   align-items: center;
+    text-align: center;
+   width: 90%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.col{
+    width: 24%;
+    color: #fff;
+}
+.col ul li{
+    color: #fff;
+    padding: 5px
+}
+footer .row{
+    width: 40%;
+    margin: auto;
+    text-align: center
+}
+footer .row p{
+    padding: 15px;
+    color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
